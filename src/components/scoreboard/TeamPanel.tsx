@@ -83,7 +83,7 @@ export const TeamPanel = ({
   };
 
   return (
-    <div className={`flex flex-col items-center gap-4 p-4 ${side === 'away' ? 'md:items-end' : 'md:items-start'}`}>
+    <div className="flex flex-col items-center gap-4 p-4">
       {/* Team Name & Color */}
       <div className="flex items-center gap-2">
         <div
